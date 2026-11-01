@@ -1,5 +1,0 @@
-{"name":"biznest","version":"1.0.0","description":"BIZNEST ERP - Business, in Balance.","main":"main.js","author":"BIZNEST",
-"scripts":{"start":"electron .","postinstall":"electron-builder install-app-deps","dist":"electron-builder --win nsis"},
-"build":{"appId":"com.biznest.erp","productName":"BIZNEST","artifactName":"BIZNEST-Setup.exe","files":["main.js","preload.js","renderer/**"],
-"win":{"target":"nsis"},"nsis":{"oneClick":false,"allowToChangeInstallationDirectory":true,"createDesktopShortcut":true,"createStartMenuShortcut":true,"deleteAppDataOnUninstall":false}},
-"dependencies":{"better-sqlite3":"^11.5.0"},"devDependencies":{"electron":"^33.2.0","electron-builder":"^25.1.8"}}
